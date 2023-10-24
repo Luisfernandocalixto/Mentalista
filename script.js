@@ -34,7 +34,7 @@ while (numeroDigitado != numeroSecreto) {
         alert('Te equivocaste... el número secreto es menor que ' + numeroDigitado);
         numeroMaximo.push(numeroDigitado);
     } else if (numeroDigitado < numeroSecreto) {
-        alert('Te equivocaste... el número secreto es mayor ' + numeroDigitado);
+        alert('Te equivocaste... el número secreto es mayor que ' + numeroDigitado);
         numeroMaximo.push(numeroDigitado);
     }
 }
